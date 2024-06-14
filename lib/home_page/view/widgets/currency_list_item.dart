@@ -21,7 +21,10 @@ class RateListItem extends StatelessWidget {
           Container(
             width: 56,
             height: 56,
-            color: color,
+            decoration: BoxDecoration(
+              color: color,
+              borderRadius: BorderRadius.circular(18),
+            ),
           ),
           const SizedBox(width: 16),
           Text(
